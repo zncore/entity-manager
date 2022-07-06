@@ -19,7 +19,7 @@ use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 use ZnCore\EntityManager\Interfaces\OrmInterface;
 use ZnCore\Repository\Interfaces\CrudRepositoryInterface;
 use ZnCore\Repository\Interfaces\RepositoryInterface;
-use ZnLib\Components\I18Next\Facades\I18Next;
+use ZnLib\I18Next\Facades\I18Next;
 
 class EntityManager implements EntityManagerInterface
 {
