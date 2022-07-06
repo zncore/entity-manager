@@ -17,8 +17,8 @@ use ZnCore\Entity\Interfaces\UniqueInterface;
 use ZnCore\EntityManager\Interfaces\EntityManagerConfiguratorInterface;
 use ZnCore\EntityManager\Interfaces\EntityManagerInterface;
 use ZnCore\EntityManager\Interfaces\OrmInterface;
-use ZnCore\Domain\Repository\Interfaces\CrudRepositoryInterface;
-use ZnCore\Domain\Repository\Interfaces\RepositoryInterface;
+use ZnCore\Repository\Interfaces\CrudRepositoryInterface;
+use ZnCore\Repository\Interfaces\RepositoryInterface;
 use ZnLib\Components\I18Next\Facades\I18Next;
 
 class EntityManager implements EntityManagerInterface

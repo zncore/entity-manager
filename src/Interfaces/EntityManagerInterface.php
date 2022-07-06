@@ -4,8 +4,8 @@ namespace ZnCore\EntityManager\Interfaces;
 
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Entity\Interfaces\EntityIdInterface;
-use ZnCore\Domain\Repository\Interfaces\FindOneUniqueInterface;
-use ZnCore\Domain\Repository\Interfaces\RepositoryInterface;
+use ZnCore\Repository\Interfaces\FindOneUniqueInterface;
+use ZnCore\Repository\Interfaces\RepositoryInterface;
 
 interface EntityManagerInterface extends TransactionInterface, FindOneUniqueInterface
 {
